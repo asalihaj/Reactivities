@@ -11,6 +11,8 @@
     "@types/react": "^17.0.5",
     "@types/react-dom": "^17.0.4",
     "axios": "^0.21.1",
+    "mobx": "^5.13.0",
+    "mobx-react-lite": "^1.4.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
