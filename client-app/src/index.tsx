@@ -1,12 +1,17 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
 import './app/layout/style.css';
+import {BrowserRouter} from 'react-router-dom';
 import App from './app/layout/App';
 import reportWebVitals from './reportWebVitals';
 import 'semantic-ui-css/semantic.min.css'
+import ScrollToTop from './app/layout/ScrollToTop';
 
 ReactDOM.render(
-    <App />,
+  <BrowserRouter>
+    <ScrollToTop>
+      <App />
+    </ScrollToTop>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
