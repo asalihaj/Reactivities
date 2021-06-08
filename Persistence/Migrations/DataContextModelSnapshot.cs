@@ -66,6 +66,7 @@ namespace Persistence.Migrations
                             Name = "Value 103"
                         });
                 });
+
 #pragma warning restore 612, 618
         }
     }
